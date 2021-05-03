@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cal{
+    text-align: center;
+    
+}
+.card{
+   margin: auto;
+   width: 350px;
+   background: #8080800d;
+   transition: 0.5s;
+}
+.function{
+    width: 500px;
+    margin: auto;
+    padding: 2px 6px;
+}
+button {
+    /* padding: 12px; */
+    width: 54px;
+    padding: 19px 39px;
+    font-size: 16px;
+    margin: auto;
+    background: #1E2226;
+    color: #fff;
+}
+button:hover{
+    background: rgb(163, 71, 55);
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 21px 60px;
+    /* padding-right: 0; */
+    text-align: right;
+    padding-right: 4px;
+    letter-spacing: 4px;
+    font-size: 21px;
+    font-weight: 700;
+    border: 2px solid rgb(73, 131, 179);
+}
+
+.divi, .multi, .sub, .add{
+    background: #5F53BA;
+    color: #fff;
+    
+    
+}
+.equel{
+    background: #D89F00;
+}
+.card:hover{
+    box-shadow: 1px 4px 10px 4px gainsboro;
+}
