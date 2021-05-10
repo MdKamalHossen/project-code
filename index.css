@@ -1,56 +1,78 @@
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
-.cal{
-    text-align: center;
-    
+
+.myheader:hover{
+    text-decoration: underline;
+    background: salmon;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.navbar-nav li a:hover{
+    background: rgb(41, 69, 158);
+    color: #fff;
+    border-radius: 5px;
+}
+.pagination li a:hover{
+
+    background: rgb(76, 78, 73);
+    color: #fff;
 }
 .card{
-   margin: auto;
-   width: 350px;
-   background: #8080800d;
-   transition: 0.5s;
-}
-.function{
-    width: 500px;
-    margin: auto;
-    padding: 2px 6px;
-}
-button {
-    /* padding: 12px; */
-    width: 54px;
-    padding: 19px 39px;
-    font-size: 16px;
-    margin: auto;
-    background: #1E2226;
-    color: #fff;
-}
-button:hover{
-    background: rgb(163, 71, 55);
-    cursor: pointer;
-}
-
-input[type="text"] {
-    padding: 21px 60px;
-    /* padding-right: 0; */
-    text-align: right;
-    padding-right: 4px;
-    letter-spacing: 4px;
-    font-size: 21px;
-    font-weight: 700;
-    border: 2px solid rgb(73, 131, 179);
-}
-
-.divi, .multi, .sub, .add{
-    background: #5F53BA;
-    color: #fff;
-    
-    
-}
-.equel{
-    background: #D89F00;
+    transition: 0.5s;
 }
 .card:hover{
-    box-shadow: 1px 4px 10px 4px gainsboro;
+    transform: translateY(-20px);
+    box-shadow: 1px 10px 10px 8px wheat;
 }
+.card2{
+    transition: 0.5s;
+}
+.card2:hover{
+    transform: translateY(-20px);
+    box-shadow: 1px 10px 10px 8px rgb(126, 187, 238);
+}
+.card3{
+    transition: 0.5s;
+}
+.card3:hover{
+    transform: translateY(-20px);
+    box-shadow: 1px 10px 10px 8px rgba(38, 88, 29, 0.74);
+}
+.card4{
+    transition: 0.5s;
+}
+.card4:hover{
+    transform: translateY(-20px);
+    box-shadow: 1px 10px 10px 8px rgba(163, 163, 163, 0.883);
+}
+table tr{
+    background: indianred;
+    color: #fff;
+}
+.form-group label span{
+    color: red;
+}
+#feedback{
+    background: #0d0442;
+}
+.hr-style{
+    border: 5px dotted #fff;
+    border-bottom: none;
+    width: 50px;
+    margin: auto;
+}
+.carousel-item{
+    padding: 5% 10%;
+    text-align: center;
+   
+}
+.carousel-item img{
+    width: 100px;
+    margin: auto;
+}
+.carousel-item p{
+    font-style: italic;
+  }

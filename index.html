@@ -4,50 +4,448 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
-</head>
-<body>
-    <h1 class="cal">CALCULATOR</h1>
-<div class="card">
-        <input type="text"/>
+    <title>Responsive</title>
    
-    <div class="function">
-        <button type="button">C</button>
-        <button type="button">+/-</button>
-        <button type="button">%</button>
-        <button class="divi" type="button">/</button>
-    </div>
-    <div class="function">
-        <button type="button">7</button>
-        <button type="button">8</button>
-        <button type="button">9</button>
-        <button class="multi" type="button">x</button>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body> 
+     <div class="container">
+    <header>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark ">
+            <a href="#" class="navbar-brand">
+                <img src="images/transparent-png-logo.png" alt="img" style="width: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto p-3 font-weight-bold">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+
+
+
+              </div>
+           
+        </nav>
         
-    </div>
-    <div class="function">
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
-        <button class="sub" type="button">-</button>
+    </header>
+    <main>
+        <!-- this is services section -->
+        <div class="services-main bg-light pt-3">
+            <div class="title text-left text-md-center mb-5 mt-5">
+                <h1 class="font-weight-bolder">SERVICES</h1>
+            </div>
+
+            <div class="row text-left  text-md-center p-2">
+                <div class="col-lg-3 col-md-6">
+                    <i class="bg-primary text-white rounded p-2 fa-2x fas fa-hands-helping"></i>
+                    <h5 class="text-uppercase mt-3">Web Design</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae exercitationem quia tempore iste harum, repellat provident, recusandae ratione numquam inventore facere libero in? Dicta doloribus eaque obcaecati tenetur quisquam.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <i class="bg-primary text-white rounded  p-2 fa-2x fas fa-hands-helping"></i>
+                    <h5 class="text-uppercase mt-3">Web Development</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae exercitationem quia tempore iste harum, repellat provident, recusandae ratione numquam inventore facere libero in? Dicta doloribus eaque obcaecati tenetur quisquam.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <i class="bg-primary rounded text-white p-2 fa-2x fas fa-hands-helping"></i>
+                    <h5 class="text-uppercase mt-3">seo</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae exercitationem quia tempore iste harum, repellat provident, recusandae ratione numquam inventore facere libero in? Dicta doloribus eaque obcaecati tenetur quisquam.</p>
+                </div>
+                <div class="col-lg-3  col-md-6">
+                    <i class="bg-primary rounded p-2 text-white fa-2x fas fa-hands-helping"></i>
+                    <h5 class="text-uppercase mt-3">software engineering</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae exercitationem quia tempore iste harum, repellat provident, recusandae ratione numquam inventore facere libero in? Dicta doloribus eaque obcaecati tenetur quisquam.</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <!-- about me section  -->
+            <div class="about-section">
+            <div class="jumbotron pt-2">
+                <div class="about-me text-center mb-3 font-uppercase">
+                    <h1 class="font-weight-bolder">About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <img class="rounded-circle  img-fluid small" src="images/y.jpg" style="width:200px">
+
+                    </div>
+                    <div class="col-lg-8 text-justifi">
+                        <p>I am a student
+                            ​​​​​​​​​​​​​​​​Welcome to our undergraduate students. As a current student, this is where you will find important information about schedules, exams and student support, as well as quick links t​o the online registration system, your student email, MyTUTor and the library.​ ​​
+                        </p>
+                        <a class="d-block mb-3" href="#demo" data-toggle="collapse">Learn More</a>
+                        <div id="demo" class="collapse">
+                            <p> amet consectetur, adipisicing elit. Quisquam voluptatem, vitae fuga accusantium est nesciunt deleniti blanditiis quod assumenda repellat non, debitis totam itaque ex adipisci ullam molestias odit sunt.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatem, vitae fuga accusantium est nesciunt deleniti blanditiis quod assumenda repellat non, debitis totam itaque ex adipisci ullam molestias odit sunt.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptatem, vitae fuga accusantium est nesciunt deleniti blanditiis quod assumenda repellat non, debitis totam itaque ex adipisci ullam molestias odit sunt.</p>
+                        </div>
+                        <div class="btn-group ">
+                            <button class="btn btn-outline-primary mb-3  mr-3 btn-md rounded">Download CD</button>
+                            <button class="btn btn-outline-info mb-3 btn-md mr-3 rounded" >Canada Info</button>
+                            <a href="#" class="btn btn-outline-success btn-md mb-3 mr-3 rounded">Visit our channel</a>
+                        </div>
+
+
+                        <div class="alert alert-success alert-dismissable">
+                            <button class="close" data-dismiss="alert">&times;</button>
+                            Have You Going to Canada? <a href="#"> Visite Here</a>
+                        </div>
+                        <div class="alert alert-info" data-dismiss="alert">
+                            <button class="close">&times;</button>
+                            Have You Going to USA? <a href="#"> Visite Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- this is custmore rewiew section start here -->
+        <!-- student table design  -->
+        <div class="Education-table">
+            <div class="title m-3 p-3">
+                <h2 class="text-weight-bold text-uppercase text-center">Education</h2>
+            </div>
+            <table class="table table-bordered text-center table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>Sl</th>
+                        <th>Qualification</th>
+                        <th>Name of Your Board</th>
+                        <th>Roll</th>
+                        <th>GPA</th>
+                        <th>Years</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>SSC</td>
+                        <td>Jessore</td>
+                        <td>264730</td>
+                        <td>4.38</td>
+                        <td>2013</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>HSC</td>
+                        <td>Jashore</td>
+                        <td>142567</td>
+                        <td>3.67</td>
+                        <td>2016</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>BTEB</td>
+                        <td>Diploma in Engineering</td>
+                        <td>725567</td>
+                        <td>2.93</td>
+                        <td>2017</td>
+                    </tr>
+                </thead>
+                
+            </table>
+        </div>
+        <!-- end student table design  -->
+
+        <!-- this is gellary section -->
+        <div class="title text-left text-md-center mb-5 mt-5">
+            <h1 class="font-weight-bolder text-uppercase">gellary</h1>
+        </div>
         
-    </div>
-    <div class="function">
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
-        <button class="add" type="button">+</button>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card bg-warning">
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/transparent-png-logo.png" style="width: 200px;">
+                            <h2 class="card-title text-uppercase fs-4 text-muted">Programming</h2>
+                            <p class="text-muted card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum consequatur neque sequi dolorum perferendis illo error aliquam, repellendus dolor in inventore nam et veritatis officiis consequuntur maiores veniam sit.</p>
+                            <a  class="card-link stretched-link" target="_blank" href="file:///C:/Users/User/Desktop/kamalproject/index.html#">Visite Our Site</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card2 bg-info">
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/transparent-png-logo.png" style="width: 200px;">
+                            <h2 class="card-title text-uppercase fs-4 text-muted">Programming</h2>
+                            <p class="text-muted card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum consequatur neque sequi dolorum perferendis illo error aliquam, repellendus dolor in inventore nam et veritatis officiis consequuntur maiores veniam sit.</p>
+                            <a  class="card-link stretched-link" target="_blank" href="file:///C:/Users/User/Desktop/kamalproject/index.html#">Visite Our Site</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card3 bg-success">
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/transparent-png-logo.png" style="width: 200px;">
+                            <h2 class="card-title text-uppercase fs-4 text-muted">Programming</h2>
+                            <p class="text-muted card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum consequatur neque sequi dolorum perferendis illo error aliquam, repellendus dolor in inventore nam et veritatis officiis consequuntur maiores veniam sit.</p>
+                            <a  class="card-link stretched-link" target="_blank" href="file:///C:/Users/User/Desktop/kamalproject/index.html#">Visite Our Site</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card4 bg-light">
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/transparent-png-logo.png" style="width: 200px;">
+                            <h2 class="card-title text-uppercase fs-4 text-muted">Programming</h2>
+                            <p class="text-muted card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum consequatur neque sequi dolorum perferendis illo error aliquam, repellendus dolor in inventore nam et veritatis officiis consequuntur maiores veniam sit.</p>
+                            <a  class="card-link stretched-link" target="_blank" href="file:///C:/Users/User/Desktop/kamalproject/index.html#">Visite Our Site</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                   
+            </div>
         
-    </div>
-    <div class="function">
-        <button type="button">0</button>
-        <button type="button">.</button>
-        <button type="button">Del</button>
-        <button class="equel" type="button">=</button>
+
         
-    </div>
-       
- </div>
+
+
+
+
+        <!-- end of gellary sec -->
+        <div class="custmore-review bg-warning">
+            <div class="about-me text-center mb-3 ">
+                <h1 class="font-weight-bolder text-uppercase">custmor review</h1>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-3 pl-5">
+                    <h5 class="text-uppercase">WEB design</h5>
+                    <blockquote class="blockquote">
+                        <i class="fa-2x fas fa-user-tie"></i>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, alias vel voluptatum eligendi quasi dolorem iusto autem, excepturi qui modi quidem consequuntur voluptatem accusamus soluta quisquam cum recusandae harum deleniti.</p>
+
+                        <footer class="blockquote-footer">
+                            Preprade by <cite>tonika</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-lg-3 pl-5">
+                    <h5 class="text-uppercase">WEB development</h5>
+                    <blockquote class="blockquote">
+                        <i class="fa-2x fas fa-user-tie"></i>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, alias vel voluptatum eligendi quasi dolorem iusto autem, excepturi qui modi quidem consequuntur voluptatem accusamus soluta quisquam cum recusandae harum deleniti.</p>
+                        <footer class="blockquote-footer">
+                            Muhammud kamal <cite>facebook</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-lg-3 pl-5">
+                    <h5 class="text-uppercase">seo</h5>
+                    <blockquote class="blockquote">
+                        <i class="fa-2x fas fa-user-tie"></i>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, alias vel voluptatum eligendi quasi dolorem iusto autem, excepturi qui modi quidem consequuntur voluptatem accusamus soluta quisquam cum recusandae harum deleniti.</p>
+                        <footer class="blockquote-footer">
+                            Muhammud kamal <cite>facebook</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="col-lg-3 pl-5">
+                    <h5 class="text-uppercase">software design</h5>
+                    <blockquote class="blockquote">
+                        <i class="fa-2x fas fa-user-tie"></i>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, alias vel voluptatum eligendi quasi dolorem iusto autem, excepturi qui modi quidem consequuntur voluptatem accusamus soluta quisquam cum recusandae harum deleniti.I am a techer my name is <abbr title="completeness">Kamal</abbr></p>
+                        <footer class="blockquote-footer">
+                            Muhammud kamal <cite>facebook</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="other-section">
+            
+                <ul class="nav nav-tabs bg-info">
+                    <li class="nav-item"><a  data-toggle="tab" class="nav-link active" href="#edu">Education</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#play">Play</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#eng">English Spoken</a></li>
+                    <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#book">Books</a></li>
+                </ul>
+
+               <div class="tab-content">
+                    <div id="edu" class="tab-pane fade active">
+                            <p>1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum maiores laborum quasi veritatis officiis sunt repellendus. Aliquid autem laboriosam, ducimus reprehenderit aperiam eum inventore,voluptates earum doloribus eveniet, sunt harum.</p>
+                    </div>
+                <div id="play" class="tab-pane fade">
+                        <p>2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum maiores laborum quasi veritatis officiis sunt repellendus. Aliquid autem laboriosam, ducimus reprehenderit aperiam eum inventore, voluptates earum doloribus eveniet, sunt harum.</p>
+                </div>
+
+                <div id="eng" class="tab-pane fade">
+                        <p>3. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum maiores laborum quasi veritatis officiis sunt repellendus. Aliquid autem laboriosam, ducimus reprehenderit aperiam eum inventore, voluptates earum doloribus eveniet, sunt harum.</p>
+                </div>
+                <div id="book" class="tab-pane fade">
+                        <p>4. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum maiores laborum quasi veritatis officiis sunt repellendus. Aliquid autem laboriosam, ducimus reprehenderit aperiam eum inventore, voluptates earum doloribus eveniet, sunt harum.</p>
+                </div>
+
+            </div>
+
+           </div>
+        <!-- list group start here -->
+        <!-- start this media  -->
+        <div class="media-section m-5">
+            <h2 class="text-center text-uppercase">My Blogs</h2>
+        </div>
+        <div class="media border">
+            <img class="rounded-circle my-3 mx-3"   src="images/d.png" alt="img" style="width: 150px;">
+            <div class="body-media my-3 mx-3 text-white">
+                <h5 class="text-muted">Try Your Best Mr. Kamal</h5>
+                <h5 class="text-muted">I Love Programming & Teaching</h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex praesentium sapiente quae adipisci et harum? Ex ducimus voluptatibus amet ipsam, fugit impedit nemo culpa eos consectetur blanditiis modi cupiditate deserunt.</p>
+            </div>
+        </div>
+        <div class="media border mt-3">
+            <div class="body-media my-3 mx-3 text-white">
+                <h5 class="text-muted">Try Your Best Mr. Kamal</h5>
+                <h5 class="text-muted">I Love Programming & Teaching</h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex praesentium sapiente quae adipisci et harum? Ex ducimus voluptatibus amet ipsam, fugit impedit nemo culpa eos consectetur blanditiis modi cupiditate deserunt.</p>
+            </div>
+            <img class="rounded-circle my-3 mx-3"   src="images/d.png" alt="img" style="width: 150px;">
+        </div>
+        <div class="media border mt-3">
+            <img class="rounded-circle my-3 mx-3 align-self-center"   src="images/d.png" alt="img" style="width: 150px;">
+            <div class="body-media my-3 mx-3 text-white">
+                <h5 class="text-muted">Try Your Best Mr. Kamal</h5>
+                <h5 class="text-muted">I Love Programming & Teaching</h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex praesentium sapiente quae adipisci et harum? Ex ducimus voluptatibus amet ipsam, fugit impedit nemo culpa eos consectetur blanditiis modi cupiditate deserunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex praesentium sapiente quae adipisci et harum? Ex ducimus voluptatibus amet ipsam, fugit impedit nemo culpa eos consectetur blanditiis modi cupiditate deserunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex praesentium sapiente quae adipisci et harum? Ex ducimus voluptatibus amet ipsam, fugit impedit nemo culpa eos consectetur blanditiis modi cupiditate deserunt.
+                </p>
+            </div>
+           
+        </div>
+        <!-- end this media -->
+        <div class="list-group">
+            <ul class="list-group">
+                <li class="list-group-item bg-info text-white">Kamal</li>
+                <li class="list-group-item bg-primary text-white">Tonika</li>
+                <li class="list-group-item bg-success text-white">Mahfuza</li>
+                <li class="list-group-item bg-warning text-white">Rakib</li>
+                <a href="#" class="btn list-group-item list-group-item-action bg-secondary text-white">Bangladesh University Of Business & technology</a>
+            </ul>
+        </div>
+        <!-- list group end -->
+        <!-- it's a input section start now -->
+        <div class="section-input container bg-primary p-3">
+            <div class="title m-3 mt-5 p-3">
+                <h1 class="text-center text-uppercase text-white">Contact me</h1>
+            </div>
+            <form action="" class="w-50 m-auto was-validated">
+                <div class="form-group">
+                     <label for="fullname" class="text-white">Full Name<span>*</span></label>
+                     <input type="text" id="fullname" class="form-control" name="fullname" required>
+                     <div class="valid-feedback text-white">Valid</div>
+                     <div class="invalid-feedback text-white">Please Fill Up your name</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="text-white">Email<span>*</span></label>
+                    <input type="email" id="email" class="form-control" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="sub" class="text-white">Subject<span>*</span></label>
+                    <input type="text" id="sub" class="form-control" name="sub" required>
+                </div>
+                <div class="form-group">
+                    <label for="address" class="text-white">Address</label>
+                    <input type="text" id="address" class="form-control" name="address" >
+                </div>
+                <div class="form-group">
+                    <label for="message" class="text-white">Message</label>
+                  <textarea style="resize: none;" id="message" cols="10" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                   
+                    <input type="submit" class="btn btn-secondary"  value="submit" >
+                    <input  type="reset" class="btn btn-secondary" value="Reset" >
+                </div>
+                
+
+
+            </form>
+        </div>
+        <!-- last position in this section  -->
+        <!-- feedback section are start here so make sure what can you do?okk mr kamal -->
+        <div class="container-section">
+            <div id="feedback">
+                <div class="title p-5">
+                    <h1 class="text-center text-uppercase text-white">feed back</h1>
+                    <hr class="hr-style">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000" data-pause="hover">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sapiente quod nobis,        voluptatem consequuntur, aliquid obcaecati temporibus ducimus explicabo, amet at! Consectetur quasi aut molestias, nam alias ut nemo placeat.</p>
+                                    <img src="images/developer.png" class="d-block w-150px pt-3 feedback-img " alt="img">
+                                    <h2 class="text-white pb-5 pt-3 text-uppercase">Web design</h2>
+                              </div>
+                              <div class="carousel-item">
+                                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sapiente quod nobis, voluptatem consequuntur, aliquid obcaecati temporibus ducimus explicabo, amet at! Consectetur quasi aut molestias, nam alias ut nemo placeat.</p>
+                                    <img src="images/development1.png" class="d-block w-150px pt-3 feedback-img " alt="img">
+                                    <h2 class="text-white pb-5 pt-3">WEB DEVELOPMENT</h2>
+                              </div>
+                              <div class="carousel-item">
+                                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum sapiente quod nobis, voluptatem consequuntur, aliquid obcaecati temporibus ducimus explicabo, amet at! Consectetur quasi aut molestias, nam alias ut nemo placeat.</p>
+                                    <img src="images/seo.png" class="d-block w-150px pt-3 feedback-img " alt="img">                                             
+                                    <h2 class="text-white pb-5 pt-3">SEO</h2>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <!-- last for feedback? -->
+
+    </main>
+    <footer class="bg-dark">
+        <ul class="pagination justify-content-center py-3">
+            <li class="page-item"><a class="page-link  p-3 " href="#">Pre</a></li>
+            <li class="page-item"><a class="page-link  p-3 " href="#">1</a></li>
+            <li class="page-item"><a class="page-link  p-3 " href="#">2</a></li>
+            <li class="page-item"><a class="page-link  p-3 " href="#">3</a></li>
+            <li class="page-item"><a class="page-link  p-3 " href="#">4</a></li>
+            <li class="page-item"><a class="page-link  p-3 " href="#">Next</a></li>
+        </ul>
+
+    </footer>
     
+</div>
+    
+ 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+<script src="js/jquery-3.6.0.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script type="javascript">
+
+    </script>
 </body>
 </html>
